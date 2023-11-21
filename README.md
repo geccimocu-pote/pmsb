@@ -14,6 +14,10 @@
 ・src/bean/Delivary.java
 ・src/bean/OderMain.java
 
-・src/dao/ProductOrderDAO
-・src/dao/ProductStockDAO
-・src/dao/PurchaseOrderDAO
+（以下はそれぞれファイルの一部を担当）
+
+・src/dao/ProductOrderDAO.java
+・src/dao/ProductStockDAO.java
+・src/dao/PurchaseOrderDAO.java
+
+・web

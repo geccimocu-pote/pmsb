@@ -13,7 +13,7 @@ import tool.DateUtils;
 
 public class SupplierMasterDAO extends DAO {
 
-	/**中尾
+	/**n
 	 * 仕入先マスタテーブルから入力した仕入先コードと一致するレコードを取得するメソッド
 	 * @param supplierNo　（仕入先コード）
 	 * @return　supplierMasterbean
@@ -51,7 +51,7 @@ public class SupplierMasterDAO extends DAO {
 
 	}
 
-	/**中尾
+	/**n
 	 * 仕入先マスタテーブルに登録するメソッド
 	 * @param screenvalue　（画面で入力した値）
 	 * @param request
@@ -101,7 +101,7 @@ public class SupplierMasterDAO extends DAO {
 		return "0";
 	}
 
-	/**中尾
+	/**n
 	 * 仕入先マスタテーブルを更新するメソッド
 	 * @param screenvalue　（画面で入力した値）
 	 * @param request
@@ -151,7 +151,7 @@ public class SupplierMasterDAO extends DAO {
 
 	}
 
-	/**中尾
+	/**n
 	 * 仕入先マスタテーブルを削除するメソッド
 	 * @param supplierNo　（仕入先コード）
 	 * @return　成功：1　失敗：1以外

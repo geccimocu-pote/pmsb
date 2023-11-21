@@ -6,8 +6,8 @@ name="jdbc/pmsb"
 auth="Container"
 type="javax.sql.DataSource"
 driverClassName="oracle.jdbc.driver.OracleDriver"
-url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
-username="SQL_STUDY"
-password="SQL_STUDY"
+url="jdbc:oracle:thin:@192.168.0.2:1521:xe"
+username="pmsb"
+password="pmsb"
 />
 </Context>

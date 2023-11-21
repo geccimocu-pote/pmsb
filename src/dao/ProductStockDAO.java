@@ -67,7 +67,7 @@ public class ProductStockDAO extends DAO {
 		return result;
 	}
 
-	//木長　StockMain、CalcMain該当する品番の在庫状況を取得
+	//k　StockMain、CalcMain該当する品番の在庫状況を取得
 	public Stock searchproductStock(String getmasterkod) {
 		Stock stockproductbean = new Stock();
 
@@ -95,7 +95,7 @@ public class ProductStockDAO extends DAO {
 		return stockproductbean;
 	}
 
-	//takagi help method
+	//t help method
 
 	/**
 		 * 在庫テーブルに品番毎のデータを作成するメソッド
@@ -156,7 +156,7 @@ public class ProductStockDAO extends DAO {
 	//			return null;
 	//		}
 
-	//matsumoto 入出庫処理
+	//m 入出庫処理
 	public int updateProductStockInOut(InOut iobean, ProductStock psbean) {
 		int getResult = 0;
 		try {
@@ -193,7 +193,7 @@ public class ProductStockDAO extends DAO {
 		return getResult;
 	}
 
-	//matsumoto 納入処理
+	//m 納入処理
 	public int updateProductStockDelivery(Delivery delibean) {
 		int getResult = 0;
 		try {
@@ -215,7 +215,7 @@ public class ProductStockDAO extends DAO {
 		return getResult;
 	}
 
-	//matsumoto 出荷処理
+	//m 出荷処理
 	public int updateProductStockIssue(Issue issuebean) {
 		int getResult = 0;
 		try {

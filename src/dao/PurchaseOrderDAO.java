@@ -17,7 +17,7 @@ import tool.DateUtils;
 
 
 
-//takada
+//t
 public class PurchaseOrderDAO extends DAO{
 	public List<PurchaseOrder> searchPurchseOrder(String productNo) {
 		List<PurchaseOrder> PurchaseOrderList = new ArrayList<>();
@@ -57,7 +57,7 @@ public class PurchaseOrderDAO extends DAO{
 
 
 
-	//matsumoto
+	//m
 	public int insertPurchaseOrder(Order orderbean,String shipdate,HttpServletRequest request) {
 		int getResult =0;
 		try {
@@ -84,7 +84,7 @@ public class PurchaseOrderDAO extends DAO{
 		return getResult;
 	}
 
-//木長　StockMain、CalcMain該当する品番の受注状況を取得する。
+//k　StockMain、CalcMain該当する品番の受注状況を取得する。
 	public List<Stock> searchPurchase(String getmasterkod,List<Stock> purchase) {
 
 
@@ -117,7 +117,7 @@ purchase.add(stockpurchasekbean);
 	}
 
 
-//matsumoto
+//m
 		public PurchaseOrder searchPurchaseOrderSingleData(String poNo) {
 			PurchaseOrder puobean = new PurchaseOrder();
 
@@ -150,7 +150,7 @@ purchase.add(stockpurchasekbean);
 		}
 
 
-//matsumoto
+//m
 		public int updatePurchaseOrder(Issue issuebean,HttpServletRequest request) {
 			int getResult =0;
 			try {

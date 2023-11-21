@@ -15,7 +15,7 @@ import tool.DateUtils;
 
 public class ProductMasterDAO extends DAO {
 
-	/**中尾
+	/**n
 	 * 品番マスタテーブルから入力した品番と一致するレコードを取得するメソッド
 	 * @param productNo　（品番）
 	 * @return　productBean
@@ -51,7 +51,7 @@ public class ProductMasterDAO extends DAO {
 		return productBean;
 	}
 
-	/**中尾
+	/**n
 	 * 品番マスタテーブルに登録するメソッド
 	 * @param screenvalue　（画面で入力した値）
 	 * @param request
@@ -99,7 +99,7 @@ public class ProductMasterDAO extends DAO {
 		return "0";
 	}
 
-	/**中尾
+	/**n
 	 * 品番マスタテーブルを削除するメソッド
 	 * @param productNo　（品番）
 	 * @return　成功：1　失敗：1以外
@@ -127,7 +127,7 @@ public class ProductMasterDAO extends DAO {
 		return result;
 	}
 
-	/**中尾
+	/**n
 	 * 品番マスタテーブルを更新するメソッド
 	 * @param screenvalue　（画面で入力した値）
 	 * @param request
@@ -175,7 +175,7 @@ public class ProductMasterDAO extends DAO {
 
 	}
 
-	//木長　CalcMain品番マスタ全てのデータを取得
+	//k　CalcMain品番マスタ全てのデータを取得
 	public List<Stock> getProductMasterNo(List<Stock> listmaster) {
 
 		try {
@@ -206,7 +206,7 @@ public class ProductMasterDAO extends DAO {
 		return listmaster;
 	}
 
-	//木長StockMain 品番から品名を取得する。
+	//k StockMain 品番から品名を取得する。
 	public Stock searchStock(String getmasterkod) {
 		Stock stockmasterbean = new Stock();
 

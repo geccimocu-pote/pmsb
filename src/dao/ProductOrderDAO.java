@@ -52,7 +52,7 @@ public class ProductOrderDAO extends DAO {
 
 
 
-	//木長　StockMain、CalcMain該当した品番の発注情報を取得
+	//k　StockMain、CalcMain該当した品番の発注情報を取得
 	public List<Stock> searchOrder(String getmasterkod, List<Stock> order) {
 
 		try {
@@ -90,7 +90,7 @@ public class ProductOrderDAO extends DAO {
 	}
 
 
-//matsumoto
+//m
 	public int updateProductOrder(Delivery delibean,HttpServletRequest request) {
 		int getResult =0;
 		try {
@@ -115,7 +115,7 @@ public class ProductOrderDAO extends DAO {
 	}
 
 
-//木長　CalcMain、新規発注分を発注テーブルにinsertする。
+//k　CalcMain、新規発注分を発注テーブルにinsertする。
 	public int InsertOrder(HttpServletRequest request, List<Stock> output) {
 		int getResult =0;
 		for (int j = 0; j < output.size(); j++) {

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+div.dai {
+	width:630px;
+	margin:0 auto;
+	border: 1px solid black;
+}
+
+h1 {
+	text-align:center;
+}
+
+a{
+	display:block;
+	text-align:right;
+	margin-right: 20px;
+}
+
+table {
+	width: 50%;
+	border-collapse: separate;
+	border-spacing: 15px;
+	margin:0 auto;
+}
+
+td.name {
+	text-align:right;
+}
+
+.form-group {
+	width: 50%;
+	margin:0 auto;
+}
+
+p {
+	text-align:center;
+}
+
+

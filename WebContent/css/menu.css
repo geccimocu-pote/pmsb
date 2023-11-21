@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+div.dai {
+	width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+	text-align:left;
+}
+
+h2 {
+	font-size: 1.8em;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+table {
+	width: 50%;
+	border-collapse: separate;
+	border-spacing: 15px;
+	margin:0 auto;
+}
+
+td.name {
+	text-align:right;
+}
+
+button {
+	width: 100px;
+}
+
+

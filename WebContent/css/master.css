@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+div.dai {
+	width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+	text-align:right;
+}
+
+h2 {
+	font-size: 1.8em;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+.le {
+	text-align:left;
+}
+
+.ri {
+	text-align:right;
+}
+
+table.ari {
+	width: 100%;
+}
+
+
+table {
+	width: 50%;
+	border-collapse: separate;
+	border-spacing: 15px;
+	margin:0 auto;
+}
+
+
+p {
+	text-align:center;
+}
+
+button {
+	width: 100px
+}
+

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+.inputmain {
+	width:800px;
+	margin:0 auto;
+	border: 1px solid black;
+}
+
+
+h1 {
+	text-align:center;
+}
+
+a{
+	display:block;
+	text-align:right;
+	margin-right: 20px;
+}
+
+.pn {
+	font-size: 1.2em;
+	text-align:center;
+}
+
+input{
+    font-size: 15px;
+    width: 20%;
+    padding: 2px;
+    float:none;
+}
+
+table {
+	margin: 0 auto 50px auto;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+th,td {
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+
+

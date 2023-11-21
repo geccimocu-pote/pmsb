@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+div.dai {
+	width:450px;
+	margin:0 auto;
+	border: 1px solid black;
+}
+h2 {
+	font-size: 1.8em;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+a{
+	display:block;
+	text-align:right;
+	margin-right: 20px;
+}
+
+caption {
+	font-size: 1.5em;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+table {
+	margin: 0 auto;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+th,td {
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 3px 10px;
+	text-align:center;
+}
+
+.not_poi >tr,td{
+	border: 0px ;
+}
+
+

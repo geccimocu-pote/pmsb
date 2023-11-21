@@ -43,7 +43,7 @@ public class EntryExitInfoDAO extends DAO{
 		return bean;
 	}
 
-	//matsumoto
+	//m
 	public int insertEntryExitInfo(HttpServletRequest request,InOut inoutbean,EntryExitInfo eeibean) {
 
 		int getResult =0;
